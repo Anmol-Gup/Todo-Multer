@@ -1,0 +1,39 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+#tasks{
+    background:lavender;
+}
+li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    list-style-type: none;
+}
+p,.box{
+    flex: 50%;
+}
+.box{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+input[type='checkbox']
+{
+    width: 1.1em;
+    flex: 33%;
+    height: 1.1em;
+    border: 0.15em solid currentColor;
+    border-radius: 0.15em;
+    transform: translateY(-0.075em);
+}
+img{
+    width: 60px;
+    height: 60px;
+}
+i:hover, input[type='checkbox']{
+    cursor: pointer;
+}
